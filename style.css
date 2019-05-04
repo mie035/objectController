@@ -19,7 +19,36 @@ body {
 
 #controller
 {
-   border:1px red solid;
-   height:50px;
+   border:1px green solid;
+   height:100px;
    width:300px;
+}
+
+.top
+{
+
+}
+
+.left
+{
+  position:relative;
+  top:30px;
+  right:60px;
+  
+}
+
+.right
+{
+  color:red;
+  position:relative;
+  top:30px;
+  right:20px;
+  
+}
+
+.bottom
+{
+  position:relative;
+  top:60px;
+  right:80px;
 }

@@ -31,16 +31,17 @@ var InitController = function()
     {val:"reset", txt:"reset"},
     {val:"auto", txt:"auto"}
     ];
-    
+  
   for(let i=0;i<btns.length;i++)
   {
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.name = btns[i].val;
+    btn.classList.add(btns[i].val);
     btn.innerHTML = btns[i].txt;
     btn.onclick = btn_clicked;
     document.getElementById('controller').appendChild(btn);
-    
+
   }
   
 };
